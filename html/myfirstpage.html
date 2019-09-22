@@ -31,6 +31,7 @@
     <p><a href="http://www.htmldog.com">HTML Dog</a></p>
     <img src="http://htmldog.com/badge1.gif" width="120" height="90" alt="HTML Dog">
 
+    <p>Here's a table.</p>
     <table>
         <tr>
             <td>Row 1, cell 1</td>
@@ -54,6 +55,31 @@
         </tr>
     </table>
 
+    <p>Forms!</p>
+    <select>
+        <option>Option 1</option>
+        <option>Option 2</option>
+        <option value="third option">Option 3</option>
+    </select>
+    
+    <p>Note:Looks good but doesn't do anything yet.</p>
+    <form action="somescript.php" method="post">
+
+        <p>Name:</p>
+        <p><input name="name" value="Your name"></p>
+        
+        <p>Comments: </p>
+        <p><textarea rows="10" cols="20" name="comments">Your comments</textarea></p>
+        
+        <p>Are you:</p>
+        <p><input type="radio" name="areyou" value="male"> Male</p>
+        <p><input type="radio" name="areyou" value="female"> Female</p>
+        <p><input type="radio" name="areyou" value="hermaphrodite"> An hermaphrodite</p>
+        <p><input type="radio" name="areyou" value="asexual" checked> Asexual</p>
+        
+        <p><input type="submit"></p>
+            
+    </form>
     <p>Yep, that really <em>is</em> exciting. <strong>Warning:</strong> level of
     excitement may cause head to explode.</p> 
     
