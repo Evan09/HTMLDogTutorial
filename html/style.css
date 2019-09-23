@@ -9,10 +9,20 @@ body {
 /*How to comment*/
 
 p {
-    line-height: 21px;
+    font: 14px/1.5 "Times New Roman", times, serif;
+    padding: 30px 10px;
+    border: 1px black solid;
+    border-width: 1px 5px 5px 1px;
+    border-color: red green blue yellow;
+    margin: 10px 50px;
 }
 
-h1 {
+p:first-child {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#top h1 {
     color: #ffc;
     background-color: #900;
     font-size: 2em;
@@ -27,7 +37,7 @@ h1 {
     border-bottom-color: #c00;
 }
 
-h2 {
+h2, .thisOtherClass, .yetAnotherClass {
     color: white;
     background-color: #090;
     font-size: 1.5em;
@@ -51,6 +61,28 @@ a {
     text-decoration: none;
 }
 
+a:active {
+    color: red;
+}
+
+a:hover {
+    text-decoration: none;
+    color: blue;
+    background-color: yellow;
+}
+
+input:focus, textarea:focus {
+    background: #eee;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
 strong {
     font-style: italic;
     text-transform: uppercase;
@@ -64,3 +96,14 @@ li {
 table {
     background-color: #ccc;
 }
+
+#top {
+    background-color: #ccc;
+    padding: 20px;
+}
+
+.intro {
+    color: red;
+    font-weight: bold;
+}
+
